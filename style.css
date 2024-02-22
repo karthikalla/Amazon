@@ -451,13 +451,12 @@ ul p:hover{
 }
 @media only screen and (max-width: 425px) {
     nav {
-        height: 50px;
         flex-direction: column;
         align-items: center;
         padding: 10px;
     }
 
-    .nav-country,
+    a.nav-country,
     .nav-search,
     .nav-language,
     .nav-text,
@@ -472,6 +471,7 @@ ul p:hover{
 
     .nav-search-input {
         width: 100%;
+        margin-top: 5px;
     }
 
     .nav-search-category {
@@ -483,15 +483,16 @@ ul p:hover{
     .nav-search-icon {
         max-width: 100%;
         border-radius: 4px;
+        margin-top: 5px;
     }
 
     .nav-text p,
     .nav-text h1 {
-        font-size: 6px;
+        font-size: 12px;
     }
 
     .nav-cart h4 {
-        font-size: 8px;
+        font-size: 12px;
     }
 
     .nav-bottom-tags{
